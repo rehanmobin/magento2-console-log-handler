@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/**
+ * @package     Mage4_ConsoleLogHandler
+ * @author      Rehan Mobin <m.rehan.mobin@gmail.com>
+ * @copyright   Copyright (c) Mage4. All rights reserved. (https://www.mage4.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <console_log_handler>
+            <settings>
+                <is_enabled>0</is_enabled>
+            </settings>
+        </console_log_handler>
+    </default>
+</config>

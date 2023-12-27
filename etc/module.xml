@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/**
+ * @package     Mage4_ConsoleLogHandler
+ * @author      Rehan Mobin <m.rehan.mobin@gmail.com>
+ * @copyright   Copyright (c) Mage4. All rights reserved. (https://www.mage4.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Mage4_ConsoleLogHandler" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Framework" />
+            <module name="Mage4_Base" />
+        </sequence>
+    </module>
+</config>
