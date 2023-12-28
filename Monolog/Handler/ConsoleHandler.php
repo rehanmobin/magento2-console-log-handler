@@ -18,9 +18,9 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class ConsoleHandler extends StreamHandler
 {
-    private $consoleFormatterOptions = [];
     /** @var null|OutputInterface */
     private $output = null;
+    private $consoleFormatterOptions = [];
     private $verbosityLevelMap = [
         OutputInterface::VERBOSITY_QUIET => Logger::ERROR,
         OutputInterface::VERBOSITY_NORMAL => Logger::WARNING,

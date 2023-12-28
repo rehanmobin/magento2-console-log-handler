@@ -27,11 +27,12 @@ class AppendConsoleLogHandler
     ) {
         $this->config = $config;
     }
+
     public function beforeSetHandlers(Monolog $subject, array $handlers): array
     {
         if ($this->isLogHandlerEnabled()) {
             $streamHandler = new ConsoleHandler('php://stdout', Logger::DEBUG);
-            $streamHandler->setOutput(new ConsoleOutput($this->getVerbosityFromShell($_SERVER['SHELL_VERBOSITY'])));
+            $streamHandler->setOutput(new ConsoleOutput($this->getVerbosityFromShell($_SERVER['SHELL_VERBOSITY'] ?? 0)));
             $handlers[] = $streamHandler;
         }
         return [$handlers];

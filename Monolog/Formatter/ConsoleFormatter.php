@@ -1,6 +1,7 @@
 <?php
 
 /*
+ * This file was taken form https://github.com/symfony/monolog-bridge
  * This file is part of the Symfony package.
  *
  * (c) Fabien Potencier <fabien@symfony.com>

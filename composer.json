@@ -25,7 +25,7 @@
         "magento2",
         "magento logger",
         "monologger",
-        "console handler",
+        "log handler",
         "magento console log",
         "magento commands",
         "mage4"
@@ -35,7 +35,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Mage4\\Base\\": ""
+            "Mage4\\ConsoleLogHandler\\": ""
         }
     }
 }
