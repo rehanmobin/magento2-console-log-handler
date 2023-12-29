@@ -17,7 +17,8 @@
     ],
     "require": {
         "php": ">=7.1",
-        "magento/framework": "*"
+        "magento/framework": "*",
+        "mage4/magento2-base": "*"
     },
     "keywords": [
         "magento extensions",
