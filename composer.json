@@ -3,7 +3,7 @@
     "type": "magento2-module",
     "description": "Monolog Console log handler for Magento2.",
     "minimum-stability": "stable",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
